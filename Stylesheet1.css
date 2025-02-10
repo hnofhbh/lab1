@@ -1,0 +1,45 @@
+   /* General Page Styling */
+   body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    text-align: center;
+    padding: 50px;
+    color: #363333;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Styled List */
+ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ul li {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+ul li:hover {
+    background: rgba(255, 255, 255, 0.5);
+    transform: scale(1.05);
+}

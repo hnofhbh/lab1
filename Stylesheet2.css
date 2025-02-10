@@ -1,0 +1,53 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, hwb(309 19% 62%), #9ea6cc);
+    text-align: center;
+    padding: 50px;
+    color: #fff;
+}
+
+ /* تنسيق العنوان */
+ h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 15px rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* تنسيق النص */
+p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+
+/* Styled List */
+ul {
+    position: relative;
+    width: 450px;
+    margin: 100px auto 0;
+    padding: 10px;
+    box-sizing: border-box;
+} /* Added missing closing brace */
+
+ul li {
+    display: flex;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px 20px;
+    color: #fff;
+    margin: 5px 0;
+    transition: 0.5s;
+}
+
+ul li:hover {
+    background: rgba(255, 255, 255, 0.5) !important;
+    transform: scale(1.05); /* Slightly scales up the list item on hover */
+}
+
+ul li:nth-child(1) {
+    background: rgba(255, 255, 255, 0.559); /* Corrected rgba syntax for the first list item */
+}
+
